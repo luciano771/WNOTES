@@ -1,0 +1,22 @@
+.text-primary {
+  color: #007bff;
+}
+
+.text-secondary {
+  color: #6c757d;
+}
+
+.text-info {
+  color: #17a2b8;
+}
+
+/* Línea vertical al inicio de cada semana */
+.vertical-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px; /* Grosor de la línea */
+  height: 100%; /* Abarca toda la altura */
+  background-color: #d3ef20; /* Color de la línea */
+  z-index: -1; /* No tapa el contenido */
+}
